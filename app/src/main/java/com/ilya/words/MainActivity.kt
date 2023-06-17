@@ -38,7 +38,6 @@ class MainActivity : ComponentActivity() {
     private var lastChar = '_'
     private var displayLastChar = '_'
     
-    @Preview (showBackground = true)
     @OptIn(ExperimentalMaterial3Api::class)
     @Composable
     private fun CitiesGameUI() {
